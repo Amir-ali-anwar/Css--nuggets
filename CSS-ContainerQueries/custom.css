@@ -1,0 +1,15 @@
+* ::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.post{
+    container: sidebar / inline-size;
+}
+@container (min-width: 625px) {
+    .card h2 {
+      font-size: 2em;
+      background-color:red;
+    }
+  }
